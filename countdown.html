@@ -1,0 +1,44 @@
+<!doctype html>
+<head>
+<title>Countdown Page</title>
+<meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- CSS -->
+ <link href="dist/css/bootstrap.css" rel="stylesheet">
+ <link href="dist/css/countdown.css" rel="stylesheet">
+ 
+ <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+	
+	<style type="text/css">
+#days,#hours,#minutes,#seconds {
+   font-size: 56px;
+}
+</style>
+</head>
+<body>
+
+	<div class="container">
+      <p class="lead" style="text-align: center;font-size: 26px" id="header">WE ARE CURRENTLY WORKING ON AN AWESOME NEW SITE</p>
+	  
+      <div id="days" class="col-md-3 countdown"></div>
+	  <div id="hours" class="col-md-3 countdown"></div>
+	  <div id="minutes" class="col-md-3 countdown"></div>
+	  <div id="seconds" class="col-md-3 countdown"></div>
+      </div>
+	  </div> <!-- /container -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+	<script src="dist/js/countdown.js"></script>
+</body>
+
+</html>
